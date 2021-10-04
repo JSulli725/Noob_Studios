@@ -1,0 +1,38 @@
+Noob Studios Feature List:
+
+WILL HAVES:
+
+Login / Reg w validations
+
+dashboard: 
+	1. displays all models sorted by top voted asc/desc or post date.
+	2. models have thumbnail image
+	3. add a new model straight from dashboard
+	4. logout
+	5. "My Account" button
+
+my studio:
+	1. displays all models this user has uploaded 
+	2. logout
+	3. edit profile if the studio's creator is in session
+	4. back to dashboard
+	5. add a new model
+
+edit profile:
+	1. basically the same form as registration page but updates user instead of creating new.
+	2. form prepopulated with user's data
+
+add model:
+	1. ability to input model's title and upload a thumbnail image. (if model is added it will redirect to user's Studio adding the new upload to the current list)
+	2. back button
+
+view model:
+	1. click on a thumbnail image in the dashboard to view it on it's own page, enlarging the thumbnail image and displaying extra details like "uploaded on date" and a link to the uploader's studio
+
+*****
+NICE TO HAVES:
+
+1. sort posts by category
+2. upload of the .stl files the user's used to print their models. Users would be able to order the model from a 3D printing service via API
+3. vote count and vote button displayed for each model
+4. respective vote count on each user's specific uploads (shown via entering their "Studio").
